@@ -85,7 +85,7 @@ Linux 下，其值为：
 
 ```
 
-![](https://pic2.zhimg.com/v2-8be123b0dcf72bc5c03f764328531b91_r.jpg)
+![](images/Python os 模块详解_markdown_image/v2-8be123b0dcf72bc5c03f764328531b91_r.jpg)
 
 ### **2.4 os.listdir()**
 

@@ -45,7 +45,7 @@ git add <文件名>
 git commit -m <"日志信息"> <文件名>
 ```
 
-<img src="C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231012134606101.png" alt="image-20231012134606101" style="zoom: 67%;" />
+<img src="images/Git 学习_markdown_image/image-20231012134606101.png" alt="image-20231012134606101" style="zoom: 67%;" />
 
 #### 6.查看历史版本
 
@@ -73,7 +73,7 @@ git reset --hard <版本号>
 - 创建分支可以从开发主线上分离出来，开发自己分支的时候不会影响主线分支的进行
 - 各个分支在开发过程中，某一个分支开发失败，不会对其他分支有影响
 
-<img src="C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231012143252111.png" alt="image-20231012143252111" style="zoom:67%;" />
+<img src="images/Git 学习_markdown_image/image-20231012143252111.png" alt="image-20231012143252111" style="zoom:67%;" />
 
 #### 1.查看分支
 
@@ -99,7 +99,7 @@ git checkout <分支名>
 
 
 
-<img src="C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231012160339086.png" alt="image-20231012160339086" style="zoom:67%;" />
+<img src="images/Git 学习_markdown_image/image-20231012160339086.png" alt="image-20231012160339086" style="zoom:67%;" />
 
 - 每个分支名其实都是指向具体版本记录的指针，所以创建分支的本质就是多创建一个指针
 
@@ -123,7 +123,7 @@ git merge <分支名>
 
 - 冲突产生的表现：后面状态为 MERGING
 
-![image-20231012151831758](C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231012151831758.png)
+![image-20231012151831758](images/Git 学习_markdown_image/image-20231012151831758.png)
 
 - 冲突产生的原因：合并时两个分支在同一文件的同一位置有两套不同的修改，必须认为决定新代码内容
 
@@ -176,13 +176,13 @@ git commit -m <"日志信息">
 
 #### 1.创建远程仓库
 
-![image-20231016132520779](C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231016132520779.png)
+![image-20231016132520779](images/Git 学习_markdown_image/image-20231016132520779.png)
 
 #### 2.远程库链接
 
-<img src="C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231016133434803.png" alt="image-20231016133434803" style="zoom:67%;" />
+<img src="images/Git 学习_markdown_image/image-20231016133434803.png" alt="image-20231016133434803" style="zoom:67%;" />
 
-<img src="C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231016133451650.png" alt="image-20231016133451650" style="zoom:67%;" />
+<img src="images/Git 学习_markdown_image/image-20231016133451650.png" alt="image-20231016133451650" style="zoom:67%;" />
 
 
 
@@ -239,7 +239,7 @@ clone 会做如下操作：
 
 邀请团队内成员的操作如下
 
-![image-20231016162252561](C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231016162252561.png)
+![image-20231016162252561](images/Git 学习_markdown_image/image-20231016162252561.png)
 
 邀请的账户可以修改内容，并直接将修改后的内容传入远程仓库
 
@@ -250,15 +250,15 @@ clone 会做如下操作：
 - 将远程仓库的地址复制发给邀请跨团队协作的人
 - 对于跨团队的修改者，点击fork将项目叉到本地仓库
 
-![image-20231016162515788](C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231016162515788.png)
+![image-20231016162515788](images/Git 学习_markdown_image/image-20231016162515788.png)
 
 
 
 - 此时修改文件并提交，创建一个Pull请求
 
-![image-20231016163221052](C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231016163221052.png)
+![image-20231016163221052](images/Git 学习_markdown_image/image-20231016163221052.png)
 
 - 拥有者收到Pull请求，审核，审核通过后，才会修改仓库的代码
 
-![image-20231016163334722](C:\Users\YC105\AppData\Roaming\Typora\typora-user-images\image-20231016163334722.png)
+![image-20231016163334722](images/Git 学习_markdown_image/image-20231016163334722.png)
 
